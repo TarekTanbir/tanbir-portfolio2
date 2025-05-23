@@ -1,0 +1,94 @@
+
+body {
+  background-color: #0f0f0f;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sidebar, .main {
+  padding: 20px;
+}
+.sidebar {
+  background-color: #1c1c1c;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 20px;
+}
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid #22c55e;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.role {
+  color: #22c55e;
+}
+.info {
+  color: #ccc;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+.socials a {
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+.socials a:hover {
+  color: #22c55e;
+}
+.download-btn, .btn {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.download-btn:hover, .btn:hover {
+  background-color: #16a34a;
+}
+.main {
+  flex: 1;
+  margin: 20px;
+  max-width: 700px;
+}
+.headline {
+  font-size: 36px;
+  font-weight: bold;
+}
+.highlight {
+  color: #22c55e;
+}
+.bio {
+  color: #ccc;
+  margin: 20px 0;
+}
+.tags {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.tag {
+  color: #22c55e;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
